@@ -3,7 +3,7 @@ Adversarial examples mislead deep neural networks by introducing imperceptible p
 Phase I involves precomputation in which gradients from multiple transformed copies are aggregated to build a composite momentum vector directed toward regions of high generalizability.
 Phase II initializes at the clean example by inheriting the composite momentum accumulated in Phase I. Starting from this momentum and reinforcing the dominant gradient direction, the perturbation is iteratively refined to achieve higher cross-model attack success rates.
 Extensive experiments demonstrate that our method outperforms existing approaches in both convolutional neural network and transformer architectures, maintaining attack performance under common defense mechanisms and exhibiting strong generalization on real‑world multimodal platforms.
-![1 3](https://github.com/user-attachments/assets/ed897b1a-7421-4b85-bd05-73312be6784f)
+![Overview](./figs.png)
 ## Usage
 
 ### Installation
