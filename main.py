@@ -3,7 +3,7 @@ import argparse
 import tqdm
 import torch
 
-from l2t import L2T
+from rgc import L2T
 from utils import *
 
 def get_parser():
